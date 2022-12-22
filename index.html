@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Handson 9</title>
+    <style>
+        * {
+            font-family:cursive;
+        }
+        body {
+            background-color: rgb(218, 255, 144);
+        }
+        h1 {
+            text-align: center;
+            color: rgb(191, 131, 10);
+            font-size: 50px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>JAVA SCRIPT</h1>
+    <h3>----FUNCTIONS----</h3>
+    <p>Q.1 Create one function with zero parameter having a console statement ?</p>
+    <p><pre>Ans.1 function new() {
+        console.log("I love My India");
+    }
+    </pre>
+    </p>
+    <p>Q.2 Create one function which takes two values as a parameter and print the sum of them as "Sum of 3, 4 is 7" ?</p>
+    <p><pre>Ans.2 function sum (a,b) {
+      console.log(`sum of ${a} and ${b} is ${a+b}`);
+    }
+    </pre>
+    </p>
+    <p>Q.3 Create one arrow function ?</p>
+    <p><pre>Ans.3 var sum = () => {
+      console.log("This is an arrow function");
+    }</pre>
+    </p>
+    <p>Q.4 <pre>Print output: 
+      var x = 21;
+      var girl = function () {
+          console.log(x);
+          var x = 20;
+      };
+      girl ();</pre></p>
+    <p><pre>Ans.4 output:undefined</pre>
+    </p>
+    <p>Q.5 Complete the function in the editor. In which you are given an object and a digit N as a parameter.In the object there are two variable id and houseno are defined as a data member. You have to multiply both the data members with a given digit N.</p>
+    <p><pre>Ans.5 function Check(a,obj1) {
+      obj1.id=obj1.id*a;
+      obj1.houseno=obj1.houseno*a;
+      return obj1;
+      }</pre>
+    </p>
+    <p>Q.6 You are given two strings S and P, and your task is to concatenate them and return the concatenated string. Note: You have to complete joinStrings function. No need to take any input.</p>
+    <p><pre>Ans.6 function Check(obj1) {
+      var count=obj1.p1;
+      count+=obj1.p2;
+      count+=obj1.p3;
+      return(count);
+    }
+  </pre>
+    </p>
+    <p>Q.7 Complete the function in the editor. In which you are given an object as a parameter. That object contains two variables name and id. Your task is to compare the object name and id to the new_name and new_id given there as a parameter. Return "true" if new_name and id are same as objects name and id otherwise return "false".</p>
+    <p><pre>Ans.7 function check(obj1,a,b) {
+      if ((obj1.name===a) && (obj1.id===b))
+      {
+        return(true);
+      }
+      else 
+      {
+        return(false);
+      }
+  }
+  </pre>
+    </p>
+    <p>Q.8 Complete the function in the editor. In which you are given two objects as a parameter.In which you have to merge two objects and return a single object.</p>
+    <p><pre>Ans.8 function Check(obj1,obj2) {
+      const obj={};
+      for (let i in obj1)
+      {
+        obj[i]=obj1[i];
+      }
+      for (let i in obj2)
+      {
+        obj[i]=obj2[i];
+      }
+      return(obj);
+  }
+  </pre>
+    </p>
+</body>
+</html>
